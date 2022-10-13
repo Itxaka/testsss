@@ -5,8 +5,8 @@ on:
      - main
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
+   runs-on: ubuntu-latest
+   steps:
     - run: |
         sudo apt-get update
         sudo apt-get install -y ovmf qemu-system-arm qemu-efi-aarch64 qemu-system qemu-efi
